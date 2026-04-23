@@ -22,7 +22,7 @@ const { Content } = await render(post);
         <Image
             src={post.data.image}
             width={1024}
-            height={1024 / 1.5}
+            height={Math.round(1024 / 1.5)}
             alt={post.data.title}
             class="rounded-2xl shadow-xl mb-4 aspect-thumbnail object-cover"
         />
