@@ -11,6 +11,10 @@ export default defineConfig({
         plugins: [tailwindcss()],
     },
     integrations: [mdx()],
+<<<<<<< HEAD
     adapter: netlify({imageCDN: true}),
+=======
+    adapter: netlify(),
+>>>>>>> 6b4af62b97e95f468c345336558fc134e9d7759f
     output: 'server',
 });
